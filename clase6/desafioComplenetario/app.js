@@ -11,10 +11,10 @@ const productos = [
 
 
 //FUncion para ordenar el precio de menor a mayor
-const ordenar = (a, b) => {
-  if (a.precio > b.precio) {
+const ordenar = (prod1, prod2) => {
+  if (prod1.precio > prod2.precio) {
     return 1;
-  } else if (a.precio < b.precio) {
+  } else if (prod1.precio < prod2.precio) {
     return -1;
   } else {
     return 0;
