@@ -1,0 +1,27 @@
+/* Index o Pagina Principal */
+#header {
+    background-color: #ffccff;
+    color: black;
+    font-family: "Inder", sans-serif;
+    font-size: 16px;
+  }
+  
+  #logoMagnolia {
+    font-family: "Cinzel", serif;
+  }
+  
+  #header img {
+    width: 75px;
+    font-family: "Inder", sans-serif;
+  }
+  
+  #header li {
+    padding: 0px;
+    list-style: none;
+  }
+  
+  
+  #tamanio-letra {
+    font-size: 14px;
+  }
+  
