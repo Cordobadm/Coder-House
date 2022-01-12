@@ -1,26 +1,31 @@
+class Producto {
+  constructor(marca, rubro, nombre, precio) {
+    (this.marca = marca),
+      (this.rubro = rubro),
+      (this.nombre = nombre),
+      (this.precio = precio);
+  }
+}
+
 const productos = [
-  { marca: "Laca", rubro: "Make-Up", nombre: "Brocha", precio: 1000 },
-  { marca: "Mac", rubro: "Make-Up", nombre: "Labial", precio: 3700 },
-  { marca: "Natura", rubro: "Peinado", nombre: "Fijador", precio: 2000 },
-  { marca: "Fine", rubro: "Fitnes", nombre: "Proteina", precio: 7500 },
+  (producto1 = new Producto("LACA", "MAKEUP", "BROCHA", 1000)),
+  (producto2 = new Producto("MAC", "MAKEUP", "LABIAL", 2111)),
+  (producto3 = new Producto("NATURA", "PEINADO", "FIJADOR", 2000)),
+  (producto4 = new Producto("FINE", "FITNES", "PROTEINA", 7500)),
+  (producto5 = new Producto("FINE", "FITNES", "COLAGENO", 8500)),
+  (producto6 = new Producto("GAMMA", "PEINADO", "SECADOR", 4000)),
 ];
 
-alert("Buscar producto por rubro");
+let nombreIngresado = prompt("Ingrese su nombre: ").toUpperCase()
+const saludoBienvenida = document.createElement('h1')
+saludoBienvenida.innerHTML = `Bienvenido/a ${nombreIngresado} a: <p> 'MAGNOLIA SPA'`
+document.body.appendChild(saludoBienvenida)
 
-let entrada = prompt(
-  "Ingrese uno de los siguientes rubros (Make-Up)-(Peiando)-(Fitnes): "
-);
+const textoProductos = document.createElement('h2')
+textoProductos.innerHTML = 'Productos disponibles'
+document.body.appendChild(textoProductos)
 
-entrada = productos.filter(function (item) {
-  return item.rubro.includes(entrada);
-});
-console.log(entrada);
 
-alert("Buscar productos por precio");
-
-let entrada1 = prompt("Ingrese el precio: $ ");
-
-entrada1 = productos.filter(function (item) {
-  return item.precio <= entrada1;
-});
-console.log(entrada1);
+for (const producto of productos) {
+     
+}
