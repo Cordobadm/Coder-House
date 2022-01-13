@@ -1,9 +1,9 @@
 class Producto {
   constructor(marca, rubro, nombre, precio) {
-    (this.marca = marca),
-      (this.rubro = rubro),
-      (this.nombre = nombre),
-      (this.precio = precio);
+    this.marca = marca,
+    this.rubro = rubro,
+    this.nombre = nombre,
+    this.precio = precio;
   }
 }
 
