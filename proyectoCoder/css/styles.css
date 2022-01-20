@@ -92,3 +92,13 @@
 #cardNosotras{
   margin-top: 3rem;
 }
+
+/* FIN NOSOTRAS */
+
+/* Formulario */
+#formulario{
+  font-family: "Inder", sans-serif;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  color: black;
+}
