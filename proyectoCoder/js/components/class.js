@@ -29,7 +29,6 @@ class Producto {
     rubro,
     nombre,
     precio,
-    precioPorUnidad,
     img
   ) {
     this.id = id,
@@ -37,7 +36,6 @@ class Producto {
     this.rubro = rubro,
     this.nombre = nombre,
     this.precio = precio,
-    this.precioPorUnidad = precioPorUnidad,
     this.img = img
   }
 }

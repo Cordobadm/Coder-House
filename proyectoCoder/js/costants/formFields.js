@@ -9,7 +9,7 @@ const formFields = [
     },
     {
         id: 'email',
-        label: 'Email:'
+        label: 'Ingrese su Email:'
     },
     {
         id: 'text',

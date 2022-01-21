@@ -82,7 +82,10 @@
 #textoId{
   margin-top: 5rem;
   text-align: center;
+  font-size: 3rem;
+  font-family: "Inder", "sans-serif";
 }
+
 
 #redes img {
   width: 22px;

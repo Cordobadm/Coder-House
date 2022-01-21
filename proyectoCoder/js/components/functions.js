@@ -8,7 +8,7 @@ const agregarCardAlHtml = () => {
             <img src="${element.img}">
             <h4 class="card-title">${element.nombre}</h4>
             <p class="card-text">Marca: ${element.marca}</p>
-            <h5>Precio: <span>$${element.precioPorUnidad}</span></h5>
+            <h5>Precio: <span>$${element.precio}</span></h5>
             <button id="btn-magnolia"class="btn-agregar" data-id="${element.id}">Agregar</button>
           </div>
         `;
@@ -40,7 +40,7 @@ const enviarCardAlCarrito = (datosProd) => {
     imagen: datosProd.querySelector("img").src,
     nombre: datosProd.querySelector("h4").textContent,
     marca: datosProd.querySelector("p").textContent,
-    precioPorUnidad: datosProd.querySelector("h5 span").textContent,
+    precio: datosProd.querySelector("h5 span").textContent,
     precioTotal: datosProd.querySelector("h5 span").textContent,
     cantidad: 1,
     id: datosProd.querySelector("button").getAttribute("data-id"),
@@ -63,7 +63,6 @@ const enviarCardAlCarrito = (datosProd) => {
     carrito.push(productoAlCarrito);
   }
 
-  mostrarCantidadEnCarrito();
   mostrarEnCarritoNuevo();
 };
 
@@ -75,19 +74,11 @@ const mostrarEnCarritoNuevo = () => {
         <img src="${element.imagen}" style="width: 10%">
         <h3>${element.nombre}</h3>
         <h5>Cantidad: ${element.cantidad}<h5>
-        <h5>${element.precioPorUnidad}</h5>
+        <h5>${element.precio}</h5>
       </div>
       <p>
       `;
   });
 };
 
-const mostrarCantidadEnCarrito = () => {
-  carrito.forEach((element) => {
-    carritoNavBar.innerHTML = `
-    <div>${element.cantidad}</div>
-    `;
-  });
-};
 
-// ------------- Seccion Nosotras ---------------

@@ -1,6 +1,5 @@
-let textoBienvenida = document.getElementById("textoId");
-textoBienvenida.innerHTML = `<h1>Conocénos un poco</h1>`;
-document.body.appendChild(textoBienvenida);
+let nodoPrincipal = document.getElementById("textoId");
+
 
 let cardNosotras = document.getElementById("cardNosotras");
 

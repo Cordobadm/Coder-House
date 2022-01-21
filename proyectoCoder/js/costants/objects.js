@@ -42,7 +42,6 @@ const productos = [
     "MAKEUP",
     "BROCHA",
     1000,
-    1000,
     "../img/brocha.jpg"
   )),
   (producto2 = new Producto(
@@ -50,7 +49,6 @@ const productos = [
     "MAC",
     "MAKEUP",
     "LABIAL",
-    2111,
     2111,
     "../img/labial.jpg"
   )),
@@ -60,7 +58,6 @@ const productos = [
     "PEINADO",
     "SECADOR",
     4000,
-    4000,
     "../img/secador.jpg"
   )),
   (producto4 = new Producto(
@@ -68,7 +65,6 @@ const productos = [
     "FINE",
     "FITNES",
     "PROTEINA",
-    7500,
     7500,
     "../img/proteina.jpg"
   )),

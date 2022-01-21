@@ -8,8 +8,6 @@ const userFields = [
 ]
 
 const form = new Form(formFields)
-// const header = new Header('Admin')
 
-// nodoPrincipal.appendChild(header.nodo)
 nodoPrincipal.appendChild(form.nodo)
 
