@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <link rel="shortcut icon" href="imagenes/icono.png" type="icono magnolia" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inder&family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <title>Primer Entrega</title>
+  </head>
+
+  <body>
+    <!--Header-->
+    <header class="fixed-top">
+      <nav id="header" class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="logoMagnolia" href="./index.html"
+            >Magnolia Healthy Beauty</a
+          >
+
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item" id="nosotras">
+                <a class="nav-link" href="./nosotras.html">Nosotras</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toogle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Productos
+                </a>
+                <ul
+                  id="tamanio-letra"
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">MakeUp</a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">Fine</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Salud y Belleza</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Servicios
+                </a>
+                <ul
+                  id="tamanio-letra"
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Depilacion Definitiva</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Lifting de Pestañas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Perfilado y Laminado de Cejas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Semipermanente de Manos y Pies</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./formulario.html">Contactános</a>
+              </li>
+              <li id="shoppingCart" class="nav-item">
+                <a class="navbar-brand" href="#">
+                  <img src="../img/carrito.png" alt="carrito" class="d-inline-block align-text-top">
+              </li>
+              <p id="cantidadCarrito"></p>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--/Header-->
+
+    <!-- Main -->
+    <div class="container">
+      <div id='textoId'></div>
+      <div class="row" id="row"></div>
+      <div class="row" id="mostrarCarrito"></div>
+    </div>
+
+    
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    
+    <!-- SCRIPT JS -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <script src="../js/components/class.js"></script>
+    <script src="../js/costants/objects.js"></script>
+    <script src="../js/components/functions.js"></script>
+    <script src="../js/index.js"></script>
+
+
+  </body>
+</html>
