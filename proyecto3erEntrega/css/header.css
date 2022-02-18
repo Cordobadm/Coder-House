@@ -1,0 +1,19 @@
+/* Header */
+#header {
+  background-color: #d6d6d6;
+  font-family: "Playfair Display", serif;
+}
+
+#header li {
+  padding: 0px;
+  list-style: none;
+}
+
+#tamanio-letra {
+  font-size: 14px;
+}
+
+#shoppingCart img {
+  width: 5.5vh;
+  margin-right: 5rem;
+}

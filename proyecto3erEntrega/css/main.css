@@ -1,0 +1,44 @@
+#textProducto {
+  margin-top: 10rem;
+  text-align: center;
+  font: 50px;
+  color: black;
+  font-family: "Inder", "sans-serif";
+}
+
+#row {
+  margin-top: 5rem;
+  margin-right: 15rem;
+}
+
+
+#btn-magnolia {
+  background-color: #ffccff;
+  color: black;
+  font-family: "Playfair Display", serif;
+}
+
+
+
+#cantidadCarrito {
+  margin-left: 0px;
+}
+
+#textMostrarCarrito {
+  text-align: center;
+  font-family: "Inder", sans-serif;
+  font-size: 50px;
+  color: black;
+}
+
+#textoId {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Inder", "sans-serif";
+}
+
+
+
+
+

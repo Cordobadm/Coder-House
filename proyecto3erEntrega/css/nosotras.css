@@ -1,0 +1,46 @@
+/* Estilos de Nosotras */
+#header {
+  background-color: #d6d6d6;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+#header li {
+  padding: 0px;
+  list-style: none;
+}
+
+#textoNosotras {
+  color: black;
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Inder", "sans-serif";
+}
+
+#redes img {
+  width: 22px;
+  padding: 3px;
+}
+
+#cardNosotras {
+  margin-top: 2rem;
+  font-family: "Inder", "sans-serif";
+}
+
+.masInfo {
+  display: none;
+}
+
+.btn {
+  width: -webkit-fill-available;
+  text-align: center;
+  background-color: #ffa9df;
+  color: black;
+  font-family: "Playfair Display", serif;
+}
+
+.btnOcultar {
+  display: none;
+}
+/* FIN NOSOTRAS */
