@@ -1,7 +1,7 @@
 $('#footer-principal').append(`
     <div class="container-fluid p-0">
       <div id="footer" class="row me-0">
-        <div class="col-12 col-md-3 col-lg-3">
+        <div class="col-12 col-md-4 col-lg-4">
           <h5>Información</h5>
             <li><hr class="dropdown-divider"></li>
           <ul class="lista-footer">
@@ -19,17 +19,8 @@ $('#footer-principal').append(`
                 <li><a href="/html/saludYbelleza.html">Salud y Belleza</a></li> 
             </ul>
         </div>
-        <div class="col-12 col-md-3 col-lg-3">
-          <h5>Servicios</h5>
-          <li><hr class="dropdown-divider"></li>
-            <ul class="lista-footer">
-                <li><a href="/html/depilacion.html">Depilacion Definitiva</a></li>
-                <li><a href="/html/lifting.html">Lifting de Pestañas</a></li>
-                <li><a href="/html/perfilado.html">Perfilado y Laminado de Cejas</a></li>
-                <li><a href="/html/manosYpies.html">Semipermanente de Manos y Pies</a></li>
-            </ul>
-        </div>
-        <div id="contacto" class="col-12 col-md-3 col-lg-3">
+        
+        <div id="contacto" class="col-12 col-md-4 col-lg-4">
           <h5>Encontrános</h5>
           <li><hr class="dropdown-divider"></li>
             <ul class="lista-footer">

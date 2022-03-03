@@ -1,0 +1,49 @@
+[
+  {
+    "id": 0,
+    "marca": "LACA",
+    "rubro": "MAKEUP",
+    "nombre": "BROCHA",
+    "precio": 1000,
+    "img": "../img/brocha.png"
+  },
+  {
+    "id": 1,
+    "marca": "MAC",
+    "rubro": "MAKEUP",
+    "nombre": "LABIAL",
+    "precio": 2111,
+    "img": "../img/labial.png"
+  },
+  {
+    "id": 2,
+    "marca": "GAMMA",
+    "rubro": "PEINADO",
+    "nombre": "SECADOR",
+    "precio": 4000,
+    "img": "../img/secador.png"
+  },
+  {
+    "id": 3,
+    "marca": "FINE",
+    "rubro": "FITNES",
+    "nombre": "PROTEINA",
+    "precio": 7500,
+    "img": "../img/proteina.png"
+  },
+  {
+    "id": 4,
+    "marca": "REMINGTON ",
+    "rubro": "PEINADO",
+    "nombre": "BUCLERA",
+    "precio": 2800,
+    "img": "../img/buclera.png"
+  },{
+    "id": 5,
+    "marca": "ROBY ",
+    "rubro": "PEINADO",
+    "nombre": "FIJADOR",
+    "precio": 3500,
+    "img": "../img/fijador.jpg"
+  }
+]

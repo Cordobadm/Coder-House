@@ -1,4 +1,5 @@
-$("#textProducto").append("<h1>Productos Disponibles</h1>");
+
+$("#textProducto").append("<h1>Productos Destacados</h1>");
 
 $("#textMostrarCarrito").append("<h1>Productos en el carrito</h1>");
 

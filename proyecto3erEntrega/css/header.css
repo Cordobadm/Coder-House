@@ -14,6 +14,19 @@
 }
 
 #shoppingCart img {
-  width: 5.5vh;
-  margin-right: 5rem;
+  width: 8vh;
 }
+
+#contador{
+  margin-left: -42px;
+  margin-top: -36px;
+  font-size: 5vh;
+  font-family: "Playfair Display", serif;
+  color: rgba(0,0,0,0.55);
+}
+
+#redesHeader img{
+  width: 32px;
+  margin: 10px;
+}
+

@@ -16,11 +16,12 @@
 
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/sidebar.css" />
+    <link rel="stylesheet" href="../css/modalCarrito.css">
+    <link rel="stylesheet" href="../css/popUp.css" />
     <link rel="stylesheet" href="../css/productos.css" />
     <link rel="stylesheet" href="../css/footer.css" />
 
-    <!-- /CSS -->
+    <!-- /CSS --> 
 
     <!-- Letras -->
     <link rel="shortcut icon" href="imagenes/icono.png" type="icono magnolia" />
@@ -41,20 +42,34 @@
   <body>
     <!--Header-->
     <header id="header" class="fixed-top"></header>
-    <!--/Header-->
+    
 
     <!-- Main -->
     <div class="container">
+      <!-- POP UP -->
+      <div id="modalPopUp" class="modal1">
+        <div class="modal-content">
+          <p>Producto Agregado</p><button class="btn-close close"></button>
+        </div>
+      </div>
+      
       <div id="textProducto"></div>
-      <div class="row" id="row"></div>
+      <div class="row" id="row">
+        <div class="form-group">
+          <input type="text" id="buscar" placeholder="¿Qué productos estás buscando?" >
+          <button id="btnBuscar" class="btn-buscar" >Buscar</button>
+        </div>
+      </div>
 
-      <div class="sidebar" id="mostrarCarrito"></div>
+      <div class="modal" id="modalCarrito">
+        <div id="vaciarCarrito"></div>
+      </div>
     </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <!--Footer-->
     <footer id="footer-principal"></footer>
-    <!--/Footer-->
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
@@ -69,12 +84,11 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="../js/components/header.js"></script>
+    <script src="../js/components/header.js" ></script>
     <script src="../js/components/class.js"></script>
-    <script src="../js/costants/objects.js"></script>
-    <script src="../js/components/functionsProducts.js"></script>
-    <script src="../js/components/footer.js"></script>
-    
-    <script src="../js/index.js"></script>
+    <script src="../js/components/functionsProducts.js" ></script>
+    <script src="../js/components/carrito.js" ></script>
+    <script src="../js/components/footer.js" ></script>
+    <script src="../js/index.js" ></script>
   </body>
 </html>

@@ -13,13 +13,14 @@
 #footer a {
   text-decoration: none;
   color: black;
-  font-family: "Inder", sans-serif;
+  font-family: "Playfair Display", serif;
 }
+
 
 #footer ul {
   list-style: none;
   padding: 0px;
-  font-family: "Inder", sans-serif;
+  font-family:  "Playfair Display", serif;
 }
 
 #footer-principal {
@@ -32,6 +33,6 @@
 }
 
 #redes img {
-  width: 22px;
+  width: 32px;
   padding: 3px;
 }

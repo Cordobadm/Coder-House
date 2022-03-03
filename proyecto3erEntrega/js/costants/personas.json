@@ -1,0 +1,41 @@
+[
+  {
+    "id": 0,
+    "nombre": "Elizabeth",
+    "apellido": "Herrera",
+    "cargo": "Co-Fundadora",
+    "profesion": "Medica",
+    "imagen": "../img/imgNosotras/draHerrera.png",
+    "instagram": "https://www.instagram.com/eli_herrera_69/",
+    "facebook": "https://www.facebook.com/elizabeth.herrera.399",
+    "twitter": "",
+    "informacion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, placeat.",
+    "masInformacion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea omnis eveniet necessitatibus quisquam explicabo ad doloribus quae autem quasi sequi."
+  },
+  {
+    "id": 1,
+    "nombre": "Alexia",
+    "apellido": "Ponce de Leon",
+    "cargo": "Co-Fundadora",
+    "profesion": "Community Manager",
+    "imagen": "../img/imgNosotras/alexia.png",
+    "instagram": "https://www.instagram.com/alexiapdl/",
+    "facebook": "https://www.facebook.com/alexiapdl1",
+    "twitter": "https://twitter.com/Alexiapdl",
+    "informacion": "Lorem, ipsum dolor sit amet consectetur  elit. Eius quam, dignissimos, ",
+    "masInformacion": "Ex porro nostrum quo fugiat nihil aspernatur doloribus ullam consequuntur ipsam qui dolorem praesentium magnam laborum eaque fuga nisi natus temporibus a modi, minus incidunt ea minima obcaecati commodi? Minima, odit?"
+  },
+  {
+    "id": 2,
+    "nombre": "Lucia",
+    "apellido": "Ponce de Leon",
+    "cargo": "Co-Fundadora",
+    "profesion": "Make Up",
+    "imagen": "../img/imgNosotras/lucia.png",
+    "instagram": "https://www.instagram.com/luciapdl/",
+    "facebook": "https://www.facebook.com/lucia.poncedeleon.56",
+    "twitter": "",
+    "informacion": "Exercitationem ea et ipsum molestiae sint nobis illo minima",
+    "masInformacion": "Accusamus ipsa quasi assumenda quos vero doloribus eius quam, dignissimos, ratione reprehenderit animi error itaque quibusdam odit voluptatibus sint autem nihil, atque nesciunt rem. Quasi numquam consequatur architecto quis!"
+  }
+]
