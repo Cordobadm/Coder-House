@@ -1,0 +1,41 @@
+[
+  {
+    "id": 0,
+    "nombre": "Elizabeth",
+    "apellido": "Herrera",
+    "cargo": "Co-Fundadora",
+    "profesion": "Medica",
+    "imagen": "../img/imgNosotras/draHerrera.png",
+    "instagram": "https://www.instagram.com/eli_herrera_69/",
+    "facebook": "https://www.facebook.com/elizabeth.herrera.399",
+    "twitter": "",
+    "informacion": "Médica clínica, nutricionista, especializada en diabetes y endocrinología",
+    "masInformacion": "Soy una apasionada por mi trabajo ya que considero que es mas que eso: está muy vinculado a mi ser y hacer."
+  },
+  {
+    "id": 1,
+    "nombre": "Alexia",
+    "apellido": "Ponce de Leon",
+    "cargo": "Co-Fundadora",
+    "profesion": "Community Manager",
+    "imagen": "../img/imgNosotras/alexia.png",
+    "instagram": "https://www.instagram.com/alexiapdl/",
+    "facebook": "https://www.facebook.com/alexiapdl1",
+    "twitter": "https://twitter.com/Alexiapdl",
+    "informacion": "Máster en Comunicación Corporativa. Licenciada en Comunicación Social." ,
+    "masInformacion": "Periodista. CommunityManager. Amante de los azahares, la buena música y los momentos."
+  },
+  {
+    "id": 2,
+    "nombre": "Lucia",
+    "apellido": "Ponce de Leon",
+    "cargo": "Co-Fundadora",
+    "profesion": "Make Up",
+    "imagen": "../img/imgNosotras/lucia.png",
+    "instagram": "https://www.instagram.com/luciapdl/",
+    "facebook": "https://www.facebook.com/lucia.poncedeleon.56",
+    "twitter": "",
+    "informacion": "Maquilladora Profesional. Estudiante de Medicina.",
+    "masInformacion": "Amante de las cosas simples y los animales. Make Up Artista. "
+  }
+]

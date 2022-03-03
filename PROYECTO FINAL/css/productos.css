@@ -1,0 +1,32 @@
+#productoAgregado {
+  width: 500px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-family: "Inder", "sans-serif";
+  
+}
+
+#productoAgregado p {
+  background-color: white;
+  margin-bottom: 0px;
+  color: black;
+  font-size: 13px;
+  font-family: "Playfair Display", serif;
+}
+
+#productoAgregado .col img {
+float: left;
+}
+
+#cardProd {
+  text-align: center;
+  color: black;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 2rem;
+}
+
+
+#row img {
+  width: 30vh;
+}
